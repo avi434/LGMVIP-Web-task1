@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="eng" charset="UTF_8"/>
+        <link rel="stylesheet" href="profile.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Profile</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>   
+    <div class="navbar">
+     <h1>Avinash</h1>
+     <i onclick="navbar()" class="fa fa-bars icon"></i>
+     <ul>
+         <li><a href="profile1.html">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#skills">Skills</a></li>
+         <li><a href="#portfolio">portfolio</a></li>
+         <li><a href="#contact">Contact</a></li>
+     </ul>
+    </div>
+    <div class="row">
+        <div class="column">
+        <h4>Welcome.</h4>
+        <img class="proimg" src="avinash1.jpg" >
+        </div>
+    </div>
+    <div id="about" style="margin-bottom: -200px;"></div>
+    <section   data-aos="fade-up" class="About">
+    <h3  data-aos="fade-up" class="heading">About</h3>
+     <img data-aos="fade-in" class="pro1" src="avinash1.jpg">
+     <h2 data-aos="fade-up">I'am Avinash</h2>
+     <p data-aos="fade-up" >WEB Designer</p>
+     <p data-aos="fade-up">I am student of computer science and engineering.I have 
+       done some projects on website development.I am interested
+        in programming.</p>
+     <div data-aos="fade-up" class="socialmedia">
+     <a target="blank" href="https://www.linkedin.com/in/avinash-suresh-338260194"><i class="fab fa-linkedin" ></i></a>
+    <a   target="blank"href="https://github.com/avi434 "> <i class="fab fa-github"></i></a>
+     <a  target="blank" href="https://www.instagram.com/avi19084/ "><i class="fab fa-instagram"></i></a>
+     </div>
+      </section>
+      <div id="skills" style="margin-top: -10px;"></div>
+    <section  data-aos="fade-up"  class="skills">
+     <h5  data-aos="fade-up" >Skills</h5>
+     <div  data-aos="fade-up"  class="progress">
+        <div>
+            <label for="file1"class="label"><img src="html-5.png"></label>
+            <progress  id="file1" value="80" max="100" ></progress>
+        </div>
+    <div  data-aos="fade-up" >
+        <label for="file1"class="label"><img src="css3.png"></label>
+    <progress id="file1" value="50" max="100"></progress>
+    </div>
+    <div  data-aos="fade-up" >
+        <label for="file1"class="label"><img src="javascript (1).png"> </label>
+        <progress id="file1" value="50" max="100"></progress>
+    </div>
+    <div  data-aos="fade-up" >
+    <label for="file1"class="label"><img src="c-plus-plus-logo.png" ></label>
+    <progress id="file1" value="80" max="100"></progress>
+</div>
+    <div  data-aos="fade-up" ><label for="file1"class="label"><img src="java.png"></label>
+    <progress id="file1" value="80" max="100"></progress>
+ </div>
+    </div>
+    
+    </section>
+    <div id="portfolio" style="margin-bottom: -10px;"></div>
+    <section  data-aos="fade-up"  class="portfolio">
+            <h3  data-aos="fade-up" >Portfolio</h3>
+      <div id="certificate">
+          <img  data-aos="fade-right" class="c"src="c++ udemy certificate.jpg">
+          <img   data-aos="fade-left"class="cert2" src="html1.png">
+      </div> 
+      <div id="certificate2">
+          <img  data-aos="fade-right" class="cert3" src="python.png">
+          <img  data-aos="fade-left" class="cert4" src="frontend.png">
+      </div> 
+    </section>
+    <div id="contact" style="margin-bottom: -10px;"></div>
+    <section   data-aos="fade-up"class="contact">
+     <header  data-aos="fade-up"> Contact</header>
+     <div>
+         <form   data-aos="fade-up">
+             <input type="text" placeholder=" name" id="name">
+             <br>
+             <input type="email" placeholder="Email"id="email">
+             <br>
+             <input type="text"placeholder=" message" id="message">
+         </form>
+         <button  data-aos="fade-up" id="Send">Send</button>
+     </div>
+
+    </section>
+    <section id="footer">
+        <div>
+    <p class="name">Avinash</p>
+    <p class="sub">This is my personal website</p>
+    <i class="fas fa-envelope-square"></i>
+    </div>
+    <div>
+     <p class="name">Explore</p>
+     <p><a href="profile1.html">Home</a></p>
+     <p><a href="#about">About</a></p>
+     <p><a href="#skills">Skills</a></p>
+     <p><a href="#portfolio">portfolio</a></p>
+     <p><a href="#contact">contact</a></p>
+    </div>
+    <div>
+        <p class="name">Follow</p>
+       <p> <a  target="blank" href="https://www.linkedin.com/in/avinash-suresh-338260194"><i class="fab fa-linkedin" ></i></a>
+        <a  target="blank" href="https://github.com/avi434 "> <i class="fab fa-github"></i></a>
+        <a  target="blank" href="https://www.instagram.com/avi19084/ "><i class="fab fa-instagram"></i></a></p>
+        <p>@ 2021 copyrights all right resserved</p>
+    </div>
+
+<script src="profile.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    </section>
+    </body>
