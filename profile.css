@@ -344,7 +344,7 @@ p a:hover{
         width:250px;
         height:fit-content;
         margin-top:50px;
-        margin-left:50px;
+        margin-left:180px;
       }
       .column{
           margin-top: 100px;
@@ -355,8 +355,8 @@ p a:hover{
         width:95%;
       }
       .pro1{
-       margin-left:95px;
-       margin-top:30px;
+       margin-left:205px;
+       margin-top:10px;
     
       }
       .skills{
@@ -365,8 +365,9 @@ p a:hover{
         height:550px; 
       }
       progress{
-        width:250px;
+        width:350px;
         border-radius:20px;
+        height: 30px;
       }
       .portfolio{
          margin-left:0px;
@@ -374,24 +375,24 @@ p a:hover{
         height:420px; 
       }
       .c{
-        width:130px;
-        height:fit-content
+        width:150px;
+        height:100px;
       }
       .cert2{
-         width:130px;
-        height:fit-content;
-        margin-left:130px;
+         width:150px;
+        height:100px;
+        margin-left:280px;
       }
       .cert3{
-         width:130px;
-        height:fit-content;
-        margin-top:0px;
+         width:150px;
+        height:100px;
+        margin-top:-40px;
       }
       .cert4{
-         width:130px;
-        height:fit-content;
-        margin-left:130px;
-        margin-top:0px;
+         width:150px;
+        height:100px;
+        margin-left:280px;
+        margin-top:-40px;
       }
       .contact{
          margin-left:0px;
@@ -399,15 +400,15 @@ p a:hover{
         height:240px; 
       }
       #name{
-        width:280px;
+        width:400px;
         height:fit-content;
       }
       #email{
-         width:280px;
+         width:400px;
         height:fit-content;
       }
       #message{
-         width:280px;
+         width:400px;
       }
       button{
         margin-left:130px;
@@ -442,6 +443,3 @@ li{
 
 }
 }
-
-
-
